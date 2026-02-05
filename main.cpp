@@ -21,10 +21,20 @@ int main(int, char**) {
     std::cout << "-----------------------------------\n";
     std::cout << "Formula used for calculation: Desired Dose [mg] / Vial Concentration [mg/mL] = Injection Volume [mL]\n\n";
 
-    std::cout << "Please enter your Desired Dose [mg]: \n";
+    std::cout << "Please enter your Desired Dose (usual values are 4-10mg): \n";
     std::cin >> desired_dosage;
-    std::cout << "Please enter your Vial Concentration [mg/mL]: \n";
+    std::cout << "Please enter your Vial Concentration (usual values are 40-80mg/mL): \n";
     std::cin >> vial_concentration;
+
+    // checking input values for validity
+    if(desired_dosage <= 0) {
+        fprintf(stderr, "error: desired dosage must be a positive number\n");
+        exit( EXIT_FAILURE );
+    }
+    if(vial_concentration <= 0) {
+        fprintf(stderr, "error: vial concentration must be a positive number\n");
+        exit( EXIT_FAILURE );
+    }
 
     // perform calculation and error checking
     result = calculate_injection_volume(desired_dosage, vial_concentration);
