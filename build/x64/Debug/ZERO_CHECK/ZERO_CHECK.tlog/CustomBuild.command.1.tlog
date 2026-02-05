@@ -1,0 +1,10 @@
+^C:\USERS\BITTN\DOCUMENTS\RUBY\EINJECTIONCALC\BUILD\CMAKEFILES\036F1C7D5E7F83E18646F48DC15F4D91\GENERATE.STAMP.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/bittn/Documents/Ruby/Einjectioncalc -BC:/Users/bittn/Documents/Ruby/Einjectioncalc/build --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file C:/Users/bittn/Documents/Ruby/Einjectioncalc/build/EstrogenInjectionCalculator.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

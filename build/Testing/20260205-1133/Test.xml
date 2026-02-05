@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Site BuildName="Win32-MSBuild"
+	BuildStamp="20260205-1133-Experimental"
+	Name="iselin"
+	Generator="ctest-4.2.3"
+	CompilerName="C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.44.35207/bin/Hostx64/x64/cl.exe"
+	CompilerVersion="19.44.35217.0"
+	OSName="Windows"
+	Hostname="iselin"
+	OSRelease="10.0.26200"
+	OSVersion="Windows 10"
+	OSPlatform="AMD64"
+	Is64Bits="1"
+	VendorString="AuthenticAMD"
+	VendorID="Advanced Micro Devices"
+	FamilyID="15"
+	ModelID="1"
+	ModelName="AMD Ryzen 7 5700X3D 8-Core Processor"
+	ProcessorCacheSize="64"
+	NumberOfLogicalCPU="16"
+	NumberOfPhysicalCPU="8"
+	TotalVirtualMemory="34741"
+	TotalPhysicalMemory="32693"
+	LogicalProcessorsPerPhysical="2"
+	ProcessorClockFrequency="3001"
+	>
+	<Testing>
+		<StartDateTime>Feb 05 13:13 W. Europe Standard Time</StartDateTime>
+		<StartTestTime>1770293603</StartTestTime>
+		<TestList/>
+		<EndDateTime>Feb 05 13:13 W. Europe Standard Time</EndDateTime>
+		<EndTestTime>1770293603</EndTestTime>
+		<ElapsedMinutes>0</ElapsedMinutes>
+	</Testing>
+</Site>

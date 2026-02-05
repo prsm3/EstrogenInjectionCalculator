@@ -1,0 +1,8 @@
+C:/Users/bittn/Documents/Ruby/Einjectioncalc/build/CMakeFiles/EstrogenInjectionCalculator.dir
+C:/Users/bittn/Documents/Ruby/Einjectioncalc/build/CMakeFiles/Experimental.dir
+C:/Users/bittn/Documents/Ruby/Einjectioncalc/build/CMakeFiles/Nightly.dir
+C:/Users/bittn/Documents/Ruby/Einjectioncalc/build/CMakeFiles/Continuous.dir
+C:/Users/bittn/Documents/Ruby/Einjectioncalc/build/CMakeFiles/NightlyMemoryCheck.dir
+C:/Users/bittn/Documents/Ruby/Einjectioncalc/build/CMakeFiles/RUN_TESTS.dir
+C:/Users/bittn/Documents/Ruby/Einjectioncalc/build/CMakeFiles/ALL_BUILD.dir
+C:/Users/bittn/Documents/Ruby/Einjectioncalc/build/CMakeFiles/ZERO_CHECK.dir
