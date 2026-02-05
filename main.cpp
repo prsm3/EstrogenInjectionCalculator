@@ -14,7 +14,6 @@ int main(int, char**) {
     float desired_dosage, vial_concentration, result;
     desired_dosage = -1;
     vial_concentration = -1;
-    result = -1;
 
     // introduction and user prompts
     std::cout << "DIY HRT Injection Volume Calculator\n";
