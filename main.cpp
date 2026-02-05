@@ -10,11 +10,13 @@ float calculate_injection_volume(float desired_dose, float vial_concentration) {
 }
 
 int main(int, char**) {
+    // variables used for inputs and calculation
     float desired_dosage, vial_concentration, result;
     desired_dosage = -1;
     vial_concentration = -1;
     result = -1;
 
+    // introduction and user prompts
     std::cout << "DIY HRT Injection Volume Calculator\n";
     std::cout << "-----------------------------------\n";
     std::cout << "Formula used for calculation: Desired Dose [mg] / Vial Concentration [mg/mL] = Injection Volume [mL]\n\n";
@@ -24,12 +26,14 @@ int main(int, char**) {
     std::cout << "Please enter your Vial Concentration [mg/mL]: \n";
     std::cin >> vial_concentration;
 
+    // perform calculation and error checking
     result = calculate_injection_volume(desired_dosage, vial_concentration);
     if(result == -1) {
         fprintf(stderr, "error calculated value is not usable\n");
         exit( EXIT_FAILURE );
     }
     
+    // output the result and wait for user input before closing
     std::cout << "Your calculated Injection Volume is: " << result << " mL\n";
     std::cout << "Please double check any results in case you misstyped a value!";
     std::cout << "Press any key to close... ";
