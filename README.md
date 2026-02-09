@@ -10,4 +10,4 @@ This calculator only has the most basic features so far; please use [their offic
 Just download the newest release from the [Releases Page](https://github.com/prsm3/EstrogenInjectionCalculator/releases) and run the EXE.
 
 # Screenshots
-![Screenshot1]('Pictures\Screenshot 2026-02-09 201344.png')
+![Screenshot1](Pictures\Screenshot 2026-02-09 201344.png)
