@@ -8,8 +8,4 @@ This calculator is based on the [DIY HRT wiki](https://diyhrt.info/). For more c
 Download the newest release from the [Releases Page](https://github.com/prsm3/EstrogenInjectionCalculator/releases) and run the executable.
 
 ## Screenshots
-
-![Calculator application window displaying hormone injection dose calculations with input fields for concentration and volume, showing numerical results in a clean terminal interface](Pictures/Screenshot%202026-02-09%20201344.png)
-
-# Screenshots
-![Screenshot1](./Pictures/Screenshot 2026-02-09 201344.png)
+![Screenshot1](Pictures/Screenshot%202026-02-09%20201344.png)
